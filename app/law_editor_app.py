@@ -1,7 +1,7 @@
 import streamlit as st
 from processing.law_processor import process_laws, get_law_list_from_api
 
-st.title("📘 부칙 개정 도우미 (페이지 자동 순회)")
+st.title("📘 검색어 포함 법률 목록")
 
 search_word = st.text_input("🔍 찾을 단어", placeholder="예: 지방법원")
 
